@@ -1,0 +1,310 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 25px;
+    font-size: 16px;
+    position: fixed;
+    width: 100%;
+    background-color: white;
+    z-index: 1;
+    box-shadow: 0 1px 10px 1px black;
+}
+.menu a{
+    text-decoration: none;
+    color: black;
+}
+.menu a:active,
+.menu a:focus{
+    color: rgb(28, 81, 239);
+}
+.menu a:hover{
+    color: rgb(28, 81, 239);
+}
+.menu>ul{
+    list-style: none;
+    display: flex;
+    gap: 17px;
+}
+.menu li{
+    padding: 8px;
+    margin-left: 4px;
+    margin-right: 4px;
+    border-radius: 0;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    font-weight: 400;
+    background: rgba(255, 255, 255, 0);
+    border: 0px solid #000000;
+    font-size: 17px;
+}
+.searchbar input{
+    width: 250px;
+    height: 38px;
+    padding: 8px;
+    font-size: 17px;
+}
+#home{
+    margin-top: 0px;
+    height: 105vh;
+    background-image: url(resources/11062b_943b58c87b634b808d4e21c87d169803~mv2.webp);
+}
+.welcomeText{
+    position: absolute;
+    width: 600px;
+    background-color: white;
+    padding: 72px 100px;
+    text-align: center;
+    top: 245px;
+    left: 460px;
+}
+#home .welcomeText h3{
+    font-size: 38px;
+    line-height: 1.5em;
+}
+#home .welcomeText p{
+    font-size: 18px;
+    line-height: 1.8em;
+}
+#home .welcomeText button, .serviceText button {
+    height: 40px;
+    overflow: hidden;
+    margin-top: 40px;
+    background-color: rgb(28, 81, 239);
+    width: 140px;
+    border: none;
+}
+#home .welcomeText button a, .serviceText button a{
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+}
+.features{
+    padding: 55px 5px;
+}
+.features>h3{
+    font-size: 56px;
+    text-align: center;
+}
+.left-feature{
+    margin-left: 300px;
+}
+.left-feature > h1{
+    font-size: 100px;
+    color: rgb(28, 81, 239);
+}
+.left-feature-detail{
+    margin-left: 65px;
+    width: 478px;
+}
+.left-feature-detail > h3{
+    font-size: 25px;
+    margin-bottom: 25px;
+}
+.left-feature-detail > p{
+    font-size: 18px;
+    text-align: justify;
+    line-height: 1.8em;
+}
+.right-feature{
+    margin-left: 650px;
+}
+.right-feature > h1{
+    font-size: 100px;
+    color: rgb(28, 81, 239);
+}
+.right-feature-detail{
+    margin-left: 65px;
+    width: 478px;
+}
+.right-feature-detail > h3{
+    font-size: 25px;
+    margin-bottom: 25px;
+}
+.right-feature-detail > p{
+    font-size: 18px;
+    line-height: 1.8em;
+    text-align: justify;
+}
+.Services img{
+    height: 282px;
+    width: 310px;
+}
+.Services{
+    padding: 40px;
+}
+.Services h1{
+    text-align: center;
+    font-size: 56px;
+    margin-bottom: 30px;
+}
+.Service-row{
+    padding: 22px 48px;
+    display: flex;
+    gap: 40px;
+}
+.left-service{
+    width: 649px;
+    height: 282px;
+    display: flex;
+    background-color: rgb(226, 226, 226);
+}
+.serviceText{
+    padding: 23px;
+}
+.left-service p{
+    font-size: 16px;
+    line-height: 1.5em;
+}
+.left-service h3{
+    font-size: 20px;
+    margin-bottom: 20px;
+    margin-top: 8px;
+}
+.right-service{
+    width: 649px;
+    height: 282px;
+    display: flex;
+    background-color: rgb(226, 226, 226);
+}
+.right-service p{
+    font-size: 16px;
+    line-height: 1.5em;
+}
+.right-service h3{
+    font-size: 20px;
+    margin-bottom: 20px;
+    margin-top: 8px;
+}
+#about{
+    height: 120vh;
+    background-color: rgb(241, 237, 237);
+}
+#about .about-text{
+    background-color: white;
+    position: relative;
+    text-align: center;
+    width: 629px;
+    top: 155px;
+    margin: auto;
+    padding: 65px;
+}
+#about .about-text p{
+    font-size: 18px;
+    line-height: 1.8em;
+    padding: 0px 22px;
+}
+.connect{
+    height: 90vh;
+    background-color: rgb(48, 48, 48);
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    padding: 120px;
+}
+.connect-text h1{
+    border: 2px solid white;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    text-align: center;
+    /* padding-bottom: 65px; */
+    /* color: rgb(48, 48, 48); */
+    color: white;
+    background-color: white;
+    margin-right: 10px;
+}
+.connect-text h2{
+    font-size: 30px;
+}
+.connect-text{
+    display: flex;
+    flex-direction: row;
+}
+.address{
+    font-size: 18px;
+    width: 230px;
+    line-height: normal;
+    padding: 0px 39px;
+}
+.connect-form label{
+    font-size: 18px;
+}
+.connect-form input{
+    background: transparent;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom: 1px solid white;
+    padding: 3px 3px 3px 7px;
+    width: 131px;
+    margin-top: 20px;
+}
+.connect-form input:focus{
+    color: white;
+    outline: none;
+}
+.row1{
+    display: flex;
+    gap: 30px;
+    margin-bottom: 20px;
+}
+.LastRow input{
+    padding-top: 40px;
+    width: 300px;
+}
+.formBtn>input{
+    background: transparent;
+    border: none;
+    color: white;
+    font-weight: 800;
+    font-size: 30px;
+}
+.social-connect{
+    font-size: 20px;
+    font-style: normal;
+    font-weight: normal;
+    letter-spacing: 0em;
+}
+.social-connect p{
+    margin: 10px 0px;
+}
+.service-menu{
+    background-color: white;
+    width: 350px;
+    z-index: 3;
+    position: absolute;
+    top: 95px;
+    left: 450px;
+    visibility: hidden;
+    /* height: 500px; */
+    /* overflow:hidden; */
+}
+.service-menu a{
+    text-decoration: none;
+    color: black;
+    display: block ;
+}
+.service-menu li{
+    list-style: none;
+    text-align: center;
+    padding: 10px;
+    font-size: 18px;
+    display: block ;
+}
+.serviceHover:hover + .service-menu{
+    visibility: visible;
+    /* visibility: visible; */
+}
+.service-menu:hover{
+    visibility: visible;
+}
